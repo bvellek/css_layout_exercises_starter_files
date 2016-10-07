@@ -1,0 +1,50 @@
+div {
+  display: inline-block;
+  font-size: 0;
+  border: 1px solid #000;
+}
+
+.container {
+  display: block;
+  box-sizing: border-box;
+  width: 800px;
+  height: 500px;
+  margin: 100px auto 0 auto;
+  border: none;
+}
+
+
+/*Box Dimensions*/
+
+.top {
+  height: 40%;
+  width: 50%;
+}
+
+.btm {
+  height: 60%;
+  width: 33.333333%;
+}
+
+
+/*Individual Box Styles*/
+
+.green {
+  background-color: #008000;
+}
+
+.blue {
+  background-color: #00F;
+}
+
+.grey {
+  background-color: #808080;
+}
+
+.black {
+  background-color: #000;
+}
+
+.orange {
+  background-color: #FFA500;
+}
