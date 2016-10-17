@@ -1,1 +1,77 @@
 
+body{
+  box-sizing: border-box;
+  background: url(../images/outerspace_landscape.jpeg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+/**** Navigation Items ****/
+nav {
+  position: fixed;
+  padding: 0 60px;
+  background-color: #808080;
+  width: 100%;
+  height: 54px;
+}
+
+.navcat {
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+ul{
+  display: inline-block;
+  position: absolute;
+  left: 100px;
+  margin-top: 20px;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+}
+
+li::after {
+  content: " | "
+}
+
+
+
+
+/**** Main Items ****/
+
+/*Main set position to relative so that .box's offsets would be in relation to it. This allowed me to center the .box on the page*/
+
+main {
+  position: relative;
+}
+
+.box {
+  width: 600px;
+  height: 300px;
+  border: 10px green dotted;
+  position: absolute;
+  left: 50vw;
+  top: 50vh;
+  margin-left: -300px;
+  margin-top: -150px;
+}
+
+.cat, .dog {
+  postion: relative;
+  width: 200px;
+}
+
+.cat {
+  position: relative;
+  left: -100px;
+  top: -100px;
+}
+
+.dog {
+  position: relative;
+  top: 200px;
+  left: 300px;
+}
